@@ -1,0 +1,65 @@
+body {
+    background: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.task-container {
+  width: 320px;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  background: #2c2c2c;
+  border: 1px solid #555;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.12);
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.task-container h2 {
+  color: #f2f2f2;
+  margin-bottom: 1.2rem;
+  font-size: 1.3rem;
+}
+
+.task-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3b3b3b;
+  padding: 0.6rem 1rem;
+  margin-bottom: 0.6rem;
+  border-radius: 6px;
+  color: #ddd;
+}
+
+.task-row button {
+  background: #ff4d4d;
+  border: none;
+  border-radius: 4px;
+  padding: 0.3rem 0.6rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.task-row button:hover {
+  background: #e63a3a;
+}
+
+.add-btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background: #4a7bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.add-btn:hover {
+  background: #3a67d9;
+}
