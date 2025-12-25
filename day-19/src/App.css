@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timer-box {
+  width: 280px;
+  margin: 4rem auto;
+  padding: 2rem 1.5rem;
+  background: #2c2c2c;
+  border: 1px solid #555;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.15);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.timer-box h2 {
+  color: #f2f2f2;
+  margin-bottom: 1rem;
+}
+
+.timer-time {
+  font-size: 2.4rem;
+  color: #4a7bff;
+  margin-bottom: 1.5rem;
+}
+
+.timer-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.timer-actions button {
+  padding: 0.5rem 1.1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: #fff;
+}
+
+.start-btn {
+  background: #3bb273;
+}
+
+.stop-btn {
+  background: #ff4d4d;
+}
+
+.reset-btn {
+  background: #777;
+}
+
+.timer-actions button:hover {
+  opacity: 0.9;
+}
