@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 110vh;
+  background: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* main app card */
+.app {
+  background: #333;
+  width: 360px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* header */
+.app h3 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.search {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.search:focus {
+  border-color: #4a90e2;
+}
+
+.sort {
+  padding: 10px 8px;
+  font-size: 14px;
+  border: 0.3px solid #aaaaaa;
+  border-radius: 6px;
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+/* users list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+li:hover {
+  background: #ebebeb;
+  color: black;
+}
+
+.users-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user {
+  padding: 10px 12px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.user:hover {
+  background: #f2f2f2;
+}
+
+.user.selected {
+  background: #4a90e2;
+  color: white;
+  font-weight: 600;
+}
+
+
+/* loading text */
+p {
+  text-align: center;
+  font-size: 14px;
+}
+
+
