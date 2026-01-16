@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  background: url(assets/background.png);
+}
+
+.app {
+  width: 1200px;
+  margin: 40px auto;
+  background: transparent;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 80vh;
+}
+
+.input-box {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: initial;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  color: black;
+}
+
+li.done span {
+  text-decoration: line-through;
+  color: black;
+}
+
+.filters {
+  display: flex;
+  gap: 6px;
+  margin: 10px 0;
+}
+
+.filters .active {
+  font-weight: bold;
+}
+
+p {
+  color: black;
+}
